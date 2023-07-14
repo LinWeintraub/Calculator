@@ -22,7 +22,14 @@ For example, to use the Calculator:
 #include "calculator.h"
 
 int main() {
-    // Your Calculator State Machine code here
+    double result = 0;
+    calculator_status_t status = 0;
+	char expression[100] = "7+8";   
+
+	status = Calculator(expression, &result);
+
+	printf("the status: %d\n", status);
+	printf("the result: %f\n", result);
 
     return 0;
 }

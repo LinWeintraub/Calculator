@@ -31,7 +31,7 @@ int main() {
 	printf("the status: %d\n", status);
 	printf("the result: %f\n", result);
 
-    return 0;
+	return 0;
 }
 ```
 

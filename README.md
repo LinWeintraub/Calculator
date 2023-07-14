@@ -35,6 +35,15 @@ int main() {
 }
 ```
 
+Compile the program using the Calculator and Stack source files:
+```
+gcc main.c calculator.c stack.c -o calculator
+```
+
+```
+./calculator
+```
+
 # Supported Expressions
 The Calculator supports various mathematical expressions, including:
 * Addition (+), subtraction (-), multiplication (*), and division (/) operations.
